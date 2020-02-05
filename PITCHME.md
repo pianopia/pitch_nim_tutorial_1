@@ -15,7 +15,7 @@
 - C言語, C++, Javascript, Objective-Cにトランスパイル
 - Pythonのような記述
 
----
+---?color=#1C1C1C
 
 ### Nimってどんな言語？ その２
 
@@ -23,7 +23,7 @@
 - AST（言語構文を）カスタマイズ可
 - 実行速度がどの言語よりも速い
 
----
+---?color=#1C1C1C
 
 ### 始めるには
 
@@ -38,8 +38,9 @@ curl https://nim-lang.org/choosenim/init.sh -sSf | sh
 
 ---
 
+### これで最新の安定板リリースが適用されます
+
 ```
-# これで最新の安定板リリースが適用されます
 choosenim update stable
 ```
 ---
