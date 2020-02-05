@@ -120,7 +120,7 @@ method check(token: string): int =
 
 ### if文、for文、try文
 
-```
+```nim
 # if文
 var test = 3
 if test == 3:
@@ -159,7 +159,7 @@ $ nimble install
 
 ### .nimble プロジェクト設定ファイル
 
-```~/.nimble
+```nim
 requires "nimx"
 ```
 ---
