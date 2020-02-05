@@ -4,13 +4,11 @@
 
 ---
 
-@snap[midpoint text-white]
-### Nimってどんな言語？
-@snapend
+### @color[white](Nimってどんな言語？)
 
 ---
 
-### Nimってどんな言語？ その１
+### @color[white](Nimってどんな言語？ その１)
 @ul[list-spaced-bullets text-09]
 - 静的型付け言語
 - 組み込みからWebまで
@@ -20,7 +18,7 @@
 
 ---
 
-### Nimってどんな言語？ その２
+### @color[white](Nimってどんな言語？ その２)
 
 - メタプログラミングに強い
 - AST（言語構文を）カスタマイズ可
