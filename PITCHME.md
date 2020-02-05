@@ -2,11 +2,11 @@
 
 # Nim
 
----?color=#1C1C1C
+---
 
 ## Nimってどんな言語？
 
----?color=#1C1C1C
+---
 
 ### Nimってどんな言語？ その１
 
@@ -97,7 +97,7 @@ proc add(x: int): int =
 
 ---
 
-### 関数宣言 その２
+## 関数数宣言 その２
 
 ```
 func check(token: string): int =
@@ -109,7 +109,7 @@ method check(token: string): int =
 
 ---
 
-### if文、for文、try文
+## if文、for文、try文
 
 ```
 # if文
