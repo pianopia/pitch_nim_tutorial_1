@@ -150,3 +150,16 @@ $ nimble install
 requires "nimx"
 ```
 ---
+
+### ビルドオプション
+--threads: on
+-d: ssl
+--gc: none
+
+---
+
+###  GC設定
+
+```
+$ nimble build --gc: none
+```
