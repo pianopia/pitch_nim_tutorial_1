@@ -154,15 +154,16 @@ $ nimble install
 
 ### .nimble プロジェクト設定ファイル
 
-```
+```~/.nimble
 requires "nimx"
 ```
 ---
 
 ### ビルドオプション
---threads: on
--d: ssl
---gc: none
+
+- --threads: on
+- -d: ssl
+- --gc: none
 
 ---
 
