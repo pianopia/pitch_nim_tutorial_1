@@ -39,7 +39,7 @@ Linux, Unix(MacOS)：以下でパッケージマネージャーをインスト�
 
 
 ```
-curl https://nim-lang.org/choosenim/init.sh -sSf | sh
+$ curl https://nim-lang.org/choosenim/init.sh -sSf | sh
 ```
 
 ---
@@ -47,7 +47,7 @@ curl https://nim-lang.org/choosenim/init.sh -sSf | sh
 ### これで最新の安定板リリースが適用されます
 
 ```
-choosenim update stable
+$ choosenim update stable
 ```
 ---
 
@@ -56,7 +56,7 @@ choosenim update stable
 - ライブラリパッケージマネージャー
 - ライブラリを検索
 ```
-nimble search <keyword>
+$ nimble search <keyword>
 
 ```
 
