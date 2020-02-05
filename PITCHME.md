@@ -4,7 +4,7 @@
 
 ---
 
-@snap[midpoint span-50 silver-fox]
+@snap[midpoint text-white]
 ### Nimってどんな言語？
 @snapend
 
