@@ -1,4 +1,4 @@
----?color=#1C1C1C
+---?image="img/logo.svg"
 
 # Nim
 
