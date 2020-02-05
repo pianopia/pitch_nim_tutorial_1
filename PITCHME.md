@@ -27,7 +27,7 @@
 
 ---
 
-![速度比較](img/lang_chart.png)
+<img src="img/lang_chart.png" style="width:500px;"></img>
 
 ---
 
