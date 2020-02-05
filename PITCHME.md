@@ -8,7 +8,8 @@
 
 ---
 
-##### Nimってどんな言語？ その１
+### Nimってどんな言語？ その１
+
 - 静的型付け言語
 - 組み込みからWebまで
 - C言語, C++, Javascript, Objective-Cにトランスパイル
@@ -17,6 +18,7 @@
 ---
 
 ### Nimってどんな言語？ その２
+
 - メタプログラミングに強い
 - AST（言語構文を）カスタマイズ可
 - 実行速度がどの言語よりも速い
@@ -28,6 +30,7 @@
 Windows：　公式HPからインストーラあり
 
 Linux, Unix(MacOS)：以下でパッケージマネージャーをインストール
+
 
 ```
 curl https://nim-lang.org/choosenim/init.sh -sSf | sh
