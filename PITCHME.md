@@ -79,7 +79,8 @@ const level = 3
 
 ---
 
-### 関数宣言 その1
+#### 関数宣言 その1
+
 
 ```
 # procが関数定義になります。
@@ -97,7 +98,8 @@ proc add(x: int): int =
 
 ---
 
-## 関数数宣言 その２
+#### 関数数宣言 その２
+
 
 ```
 func check(token: string): int =
@@ -109,7 +111,7 @@ method check(token: string): int =
 
 ---
 
-## if文、for文、try文
+### if文、for文、try文
 
 ```
 # if文
