@@ -35,11 +35,13 @@
 
 Windows：　公式HPからインストーラあり
 
-Linux, Unix(MacOS)：以下でパッケージマネージャーをインストール
+Linux, Unix(MacOS)：以下でインストール
 
 
 ```
 $ curl https://nim-lang.org/choosenim/init.sh -sSf | sh
+# 環境変数を設定
+$ export 
 ```
 
 ---
