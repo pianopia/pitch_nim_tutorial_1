@@ -27,7 +27,6 @@
 
 ---
 
-速度比較の参考
 ![速度比較](img/lang_chart.png)
 
 ---
@@ -60,7 +59,6 @@ choosenim update stable
 nimble search <keyword>
 
 ```
-- 
 
 ---
 
