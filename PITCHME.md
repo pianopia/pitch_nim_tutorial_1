@@ -1,10 +1,12 @@
----?image=img/logo.jpg
+---?color=#1C1C1C
+
+# Nim
 
 ---?color=#1C1C1C
 
 ## Nimってどんな言語？
 
----
+---?color=#1C1C1C
 
 ### Nimってどんな言語？ その１
 
