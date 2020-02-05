@@ -27,7 +27,7 @@
 
 ---
 
-<img src="img/lang_chart.png" style="width:500px;"></img>
+<img src="img/lang_chart.png" style="width:700px;"></img>
 
 ---
 
