@@ -28,7 +28,7 @@
 ---
 
 <img src="img/lang_chart.png" style="width:700px;"></img>
-
+<a href="http://h-miyako.hatenablog.com/entry/2015/01/23/060000">参考はこちら</a>
 ---
 
 ### 始めるには
