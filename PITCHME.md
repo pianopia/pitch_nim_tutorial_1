@@ -1,24 +1,55 @@
 ---
 
-# Nim言語
+# Nim
 
 ---
 
-## そもそもNimってどんな言語？
+## Nimってどんな言語？
 
 ---
 
 ### Nimってどんな言語？ その１
-- 組み込みからWebまで使える
 - 静的型付け言語
+- 組み込みからWebまで
 - C言語, C++, Javascript, Objective-Cにトランスパイル
+- Pythonのような記述
 
 ---
 
 ### Nimってどんな言語？ その２
 - メタプログラミングに強い
-- AST（言語構文を）カスタマイズできる
+- AST（言語構文を）カスタマイズ可
 - 実行速度がどの言語よりも速い
+
+---
+
+### 始めるには
+
+Windows：　公式HPからインストーラあり
+
+Linux, Unix(MacOS)：以下でパッケージマネージャーをインストール
+
+```
+curl https://nim-lang.org/choosenim/init.sh -sSf | sh
+```
+
+---
+
+```
+# これで最新の安定板リリースが適用されます
+choosenim update stable
+```
+---
+
+### Nimble
+
+- ライブラリパッケージマネージャー
+- ライブラリを検索
+```
+nimble search <keyword>
+
+```
+- 
 
 ---
 
@@ -65,12 +96,11 @@ proc add(x: int): int =
 ### 関数宣言 その２
 
 ```
-# 
 func check(token: string): int =
     return 3
 
 method check(token: string): int =
-    
+    discard
 ```
 
 ---
@@ -97,4 +127,26 @@ else DBError:
 finally:
     discard
 
+---
+
+### Nimbleプロジェクト
+
 ```
+# Nimbleプロジェクトの作成
+$ nimble init <プロジェクト名>
+
+# 実行可能ファイルを生成する
+$ nimble build
+
+# ./nimbleのパスに設定されるためコマンドとして呼び出し可能になる
+$ nimble install
+```
+
+---
+
+### .nimble プロジェクト設定ファイル
+
+```
+requires "nimx"
+```
+---
