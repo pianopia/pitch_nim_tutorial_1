@@ -1,8 +1,6 @@
----
+---?image=img/logo.jpg
 
-# Nim
-
----
+---?color=#1C1C1C
 
 ## Nimってどんな言語？
 
