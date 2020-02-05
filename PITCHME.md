@@ -9,13 +9,14 @@
 ---
 
 ### Nimってどんな言語？ その１
-
+@ul[list-spaced-bullets text-09]
 - 静的型付け言語
 - 組み込みからWebまで
 - C言語, C++, Javascript, Objective-Cにトランスパイル
 - Pythonのような記述
+@ulend
 
----?color=#1C1C1C
+---
 
 ### Nimってどんな言語？ その２
 
