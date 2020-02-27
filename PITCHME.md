@@ -8,7 +8,7 @@
 
 ---
 
-### Nimってどんな言語？ その１
+### Nimってどんな言語？
 @ul[list-spaced-bullets text-09]
 - 静的型付け言語
 - 組み込みからWebまで
@@ -18,30 +18,34 @@
 
 ---
 
-### Nimってどんな言語？ その２
+### Nimってどんな言語？
 @ul[list-spaced-bullets text-09]
 - メタプログラミングに強い
 - AST（言語構文を）カスタマイズ可
-- 実行速度がどの言語よりも速い
+- 実行速度がどの言語よりも速い（c言語のoptimizeにだけ負ける）
 @ulend
 
 ---
 
 <img src="img/lang_chart.png" style="width:700px;"></img>
 <a href="http://h-miyako.hatenablog.com/entry/2015/01/23/060000">参考はこちら</a>
+
 ---
 
 ### 始めるには
+
+MacOSなら以下が楽
+
+```
+$ brew install nim
+```
 
 Windows：　公式HPからインストーラあり
 
 Linux, Unix(MacOS)：以下でインストール
 
-
 ```
 $ curl https://nim-lang.org/choosenim/init.sh -sSf | sh
-# 環境変数を設定
-$ export 
 ```
 
 ---
