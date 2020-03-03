@@ -195,7 +195,7 @@ $ nimble build --gc: none
 
 ---
 
-[img](img/cover.jpg)
+<img src="img/cover.jpg"></img>
 
 ---
 
