@@ -11,7 +11,7 @@
 ### Nimってどんな言語？
 @ul[list-spaced-bullets text-09]
 - 静的型付け言語
-- 組み込みからWebまで
+- Webから低レイヤ、組み込みまで
 - C言語, C++, Javascript, Objective-Cにトランスパイル
 - Pythonのような記述
 @ulend
@@ -22,7 +22,7 @@
 @ul[list-spaced-bullets text-09]
 - メタプログラミングに強い
 - AST（言語構文を）カスタマイズ可
-- 実行速度がどの言語よりも速い（c言語のoptimizeにだけ負ける）
+- 実行速度が多数の言語よりも速い（c言語のoptimizeにだけ負ける）
 @ulend
 
 ---
@@ -184,3 +184,19 @@ requires "nimx"
 ```
 $ nimble build --gc: none
 ```
+
+---
+
+### 最後に
+
+---
+
+### 宣伝
+
+---
+
+[img](img/cover.jpg)
+
+---
+
+
