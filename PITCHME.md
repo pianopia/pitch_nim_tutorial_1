@@ -63,7 +63,7 @@ $ choosenim update stable
 - ライブラリを検索
 ```
 $ nimble search <keyword>
-
+$ nimble install <package-name>
 ```
 
 ---
@@ -74,15 +74,15 @@ $ nimble search <keyword>
 
 #### 変数宣言
 
-```
+```nim
 # 代入可能な変数
 var token = "aa;owienkaksoiefp0a"
 
 # 代入不可の変数
 # このように複数を同時に宣言できます
 let
-    key: string = "a;osiia;nksdf"
-    status: int = 3
+  key: string = "a;osiia;nksdf"
+  status: int = 3
 
 # 定数
 const level = 3
