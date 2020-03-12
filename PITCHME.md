@@ -153,6 +153,31 @@ finally:
 
 ---
 
+### サーバーのコードを見てみよう
+
+```nim
+import jester
+
+settings:
+  port = Port(5000)
+
+routes:
+  get "/user"
+    let data = %*{"name", "test"}
+    resp Http200, data
+
+```
+
+記述量が少なく書ける！
+
+---
+
+### nullの取り扱い
+
+
+
+---
+
 ### テストコードが書きやすい!
 
 ```nim
@@ -186,7 +211,10 @@ $ nimble install
 ### .nimble プロジェクト設定ファイル
 
 ```nim
+# 依存パッケージはこのように書きます。
 requires "nimx"
+
+requires 
 ```
 ---
 
@@ -199,6 +227,8 @@ requires "nimx"
 ---
 
 ###  GC設定
+
+GCなしも設定できたり、種類も選べます。
 
 ```
 $ nimble build --gc: none
