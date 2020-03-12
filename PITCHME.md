@@ -81,7 +81,7 @@ var token = "aa;owienkaksoiefp0a"
 # 代入不可の変数
 # このように複数を同時に宣言できます
 let
-  key: string = "a;osiia;nksdf"
+  key: string = "apple"
   status: int = 3
 
 # 定数
@@ -93,7 +93,7 @@ const level = 3
 #### 関数宣言 その1
 
 
-```
+```nim
 # procが関数定義になります。
 proc add(x: int): int =
   return x + 1
@@ -112,7 +112,7 @@ proc add(x: int): int =
 #### 関数数宣言 その２
 
 
-```
+```nim
 func check(token: string): int =
     return 3
 
@@ -136,16 +136,35 @@ else:
 
 # for文
 for x in items:
-    echo x
+  echo x
+
+for i, x in items:
+  # iにはloopカウントが入る
+  discard
 
 # try文
 try:
-    db.query()
+  db.query()
 else DBError:
-    echo error.message
+  echo error.message
 finally:
-    discard
+  discard
 ```
+
+---
+
+### テストコードが書きやすい!
+
+```nim
+type
+  ObjRef = ref object
+    n: int
+
+doAssert ObjRef(n:1) != ObjRef(n:1)     # 参照が違うので一致しない
+doAssert ObjRef(n:1)[] == ObjRef(n:1)[] # 値型なら一致する
+```
+
+unittestモジュールもある
 
 ---
 
